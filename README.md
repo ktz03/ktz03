@@ -23,10 +23,10 @@ Occasional fixes elsewhere (e.g. [Tencent/ncnn](https://github.com/Tencent/ncnn/
 
 ### Building
 
-- **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** — NL → executable AI workflows / agents (skill routing, validation, private deploy)
+- **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** — NL to executable AI workflows / agents (skill routing, validation, private deploy)
 - **[traj-wash](https://github.com/ktz03/traj-wash)** — Agent trajectory diagnosis + rubric wash CLI
 - **[handoff-pack](https://github.com/ktz03/handoff-pack)** — multi-model Agent context handoff packet CLI
-- **[云隙伙伴](https://zhumengmiao.me)** — site Agent for guided navigation (SSE, context engineering, allowlisted deep-links)
+- **[Site Agent](https://zhumengmiao.me)** — guided navigation Agent (SSE, context engineering, allowlisted deep-links)
 
 ---
 

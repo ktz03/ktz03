@@ -1,7 +1,6 @@
 ### Hi, I'm ktz03
 
-OSS contributor focused on **Agent runtime / memory / tooling**.  
-I ship small, reviewable fixes upstream — and own end-to-end Agent products on the side.
+**Agent runtime / memory systems** — small upstream fixes that survive review, plus local-first Agent tooling.
 
 ---
 
@@ -11,27 +10,30 @@ I ship small, reviewable fixes upstream — and own end-to-end Agent products on
 
 | PR | Focus |
 |----|--------|
+| [#4702](https://github.com/volcengine/OpenViking/pull/4702) | pi-extension: watermark + drain budget (review follow-up) |
 | [#4643](https://github.com/volcengine/OpenViking/pull/4643) | dsh-plugin: parallel profile + recall on pre-step |
 | [#4608](https://github.com/volcengine/OpenViking/pull/4608) | opencode-plugin: isolate `flushAll` session failures |
 | [#4040](https://github.com/volcengine/OpenViking/pull/4040) | rerank: send `top_n` on OpenAI-compatible path |
 
-Also active on deeper threads (e.g. pending-queue / memory fencing) where maintainers and peers iterate on design — not drive-by patches.
+Also shipping deeper threads under review (e.g. [pending-queue batch replay](https://github.com/volcengine/OpenViking/pull/4714), [path filters in staging](https://github.com/volcengine/OpenViking/pull/4604)) — design iteration with maintainers, not drive-by patches.
 
-Occasional fixes elsewhere (e.g. [Tencent/ncnn](https://github.com/Tencent/ncnn/pull/6906)).
+Occasional fixes elsewhere: [Tencent/ncnn#6906](https://github.com/Tencent/ncnn/pull/6906).
 
 ---
 
 ### Building
 
-- **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** — NL to executable AI workflows / agents (skill routing, validation, private deploy)
-- **[traj-wash](https://github.com/ktz03/traj-wash)** — Agent trajectory diagnosis + rubric wash CLI
-- **[handoff-pack](https://github.com/ktz03/handoff-pack)** — multi-model Agent context handoff packet CLI
-- **[Site Agent](https://zhumengmiao.me)** — guided navigation Agent (SSE, context engineering, allowlisted deep-links)
+| Repo | One-liner |
+|------|-----------|
+| **[traj-wash](https://github.com/ktz03/traj-wash)** | Find failure onset → wash cascade fails → export clean Agent trajectories |
+| **[handoff-pack](https://github.com/ktz03/handoff-pack)** | Compress OpenAI-compatible `messages[]` into a paste-ready model handoff pack |
+| **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** | NL → executable AI workflows / agents (skill routing, validation, private deploy) |
+| **[Site Agent](https://zhumengmiao.me)** | Guided navigation Agent (SSE, context engineering, allowlisted deep-links) |
 
 ---
 
 ### Focus
 
-Python · TypeScript · Agent / LLM apps · memory & tool loops · pragmatic product+eng ownership
+Python · TypeScript · Agent / LLM apps · memory & tool loops · product+eng ownership
 
-*I keep the public contribution surface focused: prefer merged, reviewed work over open PR volume.*
+*Prefer merged, reviewed work over open PR volume.*

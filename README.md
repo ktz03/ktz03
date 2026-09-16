@@ -6,7 +6,6 @@
 * [OpenViking](https://github.com/volcengine/OpenViking) · [ncnn](https://github.com/Tencent/ncnn) · [agent-framework](https://github.com/microsoft/agent-framework)
 * I ship small, review-surviving patches. Prefer merged work over open PR volume.
 * [zhumengmiao.me](https://zhumengmiao.me)
-* [ktz03头像全图.jpg](https://github.com/ktz03/ktz03/blob/main/ktz03头像全图.jpg)
 
 ---
 

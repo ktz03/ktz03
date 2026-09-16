@@ -1,5 +1,3 @@
-![ktz03头像全图](./ktz03头像全图.jpg)
-
 # ktz03
 
 Upstream contributor — agent runtimes, memory systems, on-device inference.
@@ -7,6 +5,8 @@ Upstream contributor — agent runtimes, memory systems, on-device inference.
 **[OpenViking](https://github.com/volcengine/OpenViking)** · **[ncnn](https://github.com/Tencent/ncnn)** · **[agent-framework](https://github.com/microsoft/agent-framework)**
 
 I ship small, review-surviving patches. Prefer merged work over open PR volume.
+
+* [ktz03头像全图.jpg](https://github.com/ktz03/ktz03/blob/main/ktz03头像全图.jpg)
 
 ---
 
@@ -26,6 +26,5 @@ Selected merges: [OV #4875](https://github.com/volcengine/OpenViking/pull/4875) 
 
 * [zhumengmiao.me](https://zhumengmiao.me) — personal site / guided navigation agent
 * [handoff-pack](https://github.com/ktz03/handoff-pack) — compress chat `messages[]` into a paste-ready handoff pack
-* [ktz03头像全图.jpg](./ktz03头像全图.jpg)
 
 Guangxi, China · open to work

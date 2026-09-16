@@ -1,3 +1,5 @@
+![ktz03头像全图](./ktz03头像全图.jpg)
+
 # ktz03
 
 Upstream contributor — agent runtimes, memory systems, on-device inference.

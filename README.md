@@ -24,6 +24,6 @@ Selected merges: [OV #4875](https://github.com/volcengine/OpenViking/pull/4875) 
 
 ### Elsewhere
 
-* [handoff-pack](https://github.com/ktz03/handoff-pack) — compress chat `messages[]` into a paste-ready handoff pack
+[handoff-pack](https://github.com/ktz03/handoff-pack) — compress chat `messages[]` into a paste-ready handoff pack
 
 Guangxi, China · open to work

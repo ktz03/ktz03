@@ -22,13 +22,8 @@ Selected merges: [OV #4875](https://github.com/volcengine/OpenViking/pull/4875) 
 
 ### Elsewhere
 
-[zhumengmiao.me](https://zhumengmiao.me) — personal site / guided navigation agent  
-[handoff-pack](https://github.com/ktz03/handoff-pack) — compress chat `messages[]` into a paste-ready handoff pack
+* [zhumengmiao.me](https://zhumengmiao.me) — personal site / guided navigation agent
+* [handoff-pack](https://github.com/ktz03/handoff-pack) — compress chat `messages[]` into a paste-ready handoff pack
+* [ktz03头像全图.jpg](./ktz03头像全图.jpg)
 
 Guangxi, China · open to work
-
----
-
-<p align="center">
-  <img src="./ktz03头像全图.jpg" alt="ktz03" width="420" />
-</p>

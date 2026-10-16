@@ -1,33 +1,38 @@
 # ktz03
 
-### Making agent systems more reliable
+### AI Infrastructure Engineer · Upstream Contributor
 
-I contribute upstream fixes to **OpenViking, Microsoft Agent Framework and Tencent ncnn**, focusing on **agent memory, workflow recovery and inference correctness**.
+I make AI systems more dependable—from **agent memory and workflow recovery** to **numerical correctness in inference**.
 
-**42 merged PRs across 9 upstream projects · 36 merges in my three core projects**
+**50 merged upstream PRs · 14 projects · 37 merges in OpenViking, Microsoft Agent Framework and Tencent ncnn**
 
-[Explore merged contributions](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic&type=pullrequests) · [Website](https://zhumengmiao.me)
+My work spans the agent stack and the Python tooling beneath it: persistent conversations, recoverable human-in-the-loop workflows, model conversion, transport handling and numerical edge cases.
 
-## Core work
+[Browse merged contributions](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic&type=pullrequests) · [Website](https://zhumengmiao.me)
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 15 merged PRs.** Memory and retrieval integrations, MCP streams, transport errors and context handling.
+## Where my work lands
+
+- **[OpenViking](https://github.com/volcengine/OpenViking) — 16 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 15 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
-- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 6 merged PRs.** Numerical correctness, portability and Python bindings.
+- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 6 merged PRs.** Inference correctness, portability and Python binding lifetimes.
 
-## Selected upstream fixes
+## Selected fixes, merged upstream
 
-- **Agent integration:** [Parse CR-delimited MCP event streams](https://github.com/volcengine/OpenViking/pull/5973) and [preserve response-body transport failures](https://github.com/volcengine/OpenViking/pull/5661).
-- **Workflow recovery:** [Persist HITL user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273) and [honor BreakLoop in declarative workflows](https://github.com/microsoft/agent-framework/pull/9091).
-- **Inference correctness:** [Fix even-sized LRN channel windows](https://github.com/Tencent/ncnn/pull/7070) and [retain Python custom-layer factories for their required lifetime](https://github.com/Tencent/ncnn/pull/7049).
+- **Agent integrations:** [Handle CR-delimited MCP event streams](https://github.com/volcengine/OpenViking/pull/5973) and [support bracketed IPv6 bind addresses in the OpenWebUI integration](https://github.com/volcengine/OpenViking/pull/6106).
+- **Durable workflows:** [Persist HITL user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273) and [honor BreakLoop in declarative workflows](https://github.com/microsoft/agent-framework/pull/9091).
+- **Inference runtimes:** [Correct even-sized LRN channel windows](https://github.com/Tencent/ncnn/pull/7070) and [retain Python custom-layer factories for their required lifetime](https://github.com/Tencent/ncnn/pull/7049).
+- **Python infrastructure:** [Reject readonly buffers before consuming buffered data in fsspec](https://github.com/fsspec/filesystem_spec/pull/2260) and [preserve defaultdict batch conversion in PyTorch Ignite](https://github.com/pytorch/ignite/pull/3891).
+- **Numerical stability:** [Prevent overflow when summing probability-selection fitness in PyGAD](https://github.com/ahmedfgad/GeneticAlgorithmPython/pull/381).
 
 My contribution loop: **reproduce the failure → preserve normal behavior → add a focused regression → close the review loop**.
 
-Other merged work spans **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx, RapidOCR and pyts**.
+Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx, RapidOCR, pyts, scikit-lego and Patsy**.
 
-## Tools & collaboration
+## What I build
 
-[handoff-pack](https://github.com/ktz03/handoff-pack) — turn chat `messages[]` into a paste-ready handoff pack.
+- **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** — my independent continuation of Flowise, focused on skill-driven workflow generation, cloud/local LLM integration and quota, cost and evaluation tooling.
+- **[handoff-pack](https://github.com/ktz03/handoff-pack)** — a CLI that turns agent conversation messages into a compact handoff pack for the next model or session.
 
-Open to upstream collaboration and engineering opportunities around agent infrastructure, memory systems and model tooling.
+Open to engineering opportunities and upstream collaboration around **agent platforms, AI infrastructure and reliability**.
 
-*Public contribution snapshot: October 14, 2026. The headline counts merges into repositories owned by others that are not forks; personal repositories and external forks are excluded.*
+*Public contribution snapshot: October 16, 2026. Headline counts include merged PRs in repositories owned by others that are not forks; personal repositories and external forks are excluded.*

@@ -4,13 +4,13 @@
 
 **Agent Memory · Workflow Recovery · Inference Correctness**
 
-I contribute upstream fixes to **OpenViking, Microsoft Agent Framework and Tencent ncnn**, working across agent integrations, recoverable workflows and inference runtimes.
+[My projects](https://github.com/ktz03?tab=repositories&q=is%3Apublic&type=source) · [Merged upstream contributions](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests) · [X / Twitter](https://x.com/ktz03) · [Personal website](https://www.zhumengmiao.me)
+
+I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
 
 **50+ merged upstream PRs · 14 upstream projects · 37 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn**
 
 From persistent agent memory and recoverable workflows to inference edge cases, I contribute focused fixes that make AI systems more dependable—and work with upstream reviewers to get them landed.
-
-[Merged contributions](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests) · [X / Twitter](https://x.com/ktz03) · [Personal website](https://www.zhumengmiao.me)
 
 ## Upstream impact
 

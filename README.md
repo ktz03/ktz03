@@ -1,10 +1,10 @@
 # ktz03
 
-### AI OSS Ecosystem Connector
+### Upstream AI Contributor
 
-**Healthcare CRO AI Product Manager · Upstream Contributor · AI Agent & 3D Builder**
+**Agent Memory · Workflow Recovery · Inference Correctness**
 
-I connect **healthcare AI product work** with the **open-source infrastructure behind agent systems**. My work spans product decisions, upstream engineering and building AI agents and 3D spaces.
+I contribute upstream fixes to **OpenViking, Microsoft Agent Framework and Tencent ncnn**, working across agent integrations, recoverable workflows and inference runtimes.
 
 **50+ merged upstream PRs · 14 upstream projects · 37 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn**
 
@@ -30,17 +30,11 @@ My contribution loop: **reproduce the failure → preserve normal behavior → a
 
 Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx, RapidOCR, pyts, scikit-lego and Patsy**.
 
-## The crossover
-
-- **Healthcare × AI product:** currently an AI product manager in a healthcare CRO, bringing a domain and product perspective to AI systems.
-- **Agents × infrastructure:** building AI agents while contributing to memory, workflow recovery, model conversion and inference reliability upstream.
-- **3D × personal IP:** working on 3D spaces and developing an anime-inspired personal identity through [zhumengmiao.me](https://www.zhumengmiao.me).
-
 ## Projects I build
 
 - **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** — my independent continuation of Flowise, focused on skill-driven workflow generation, cloud/local LLM integration and quota, cost and evaluation tooling.
 - **[handoff-pack](https://github.com/ktz03/handoff-pack)** — a CLI that turns agent conversation messages into a compact handoff pack for the next model or session.
 
-Based in **Shenzhen, China**. Open to collaboration across **healthcare AI products, agent infrastructure, open-source tooling and 3D experiences**.
+Based in **Shenzhen, China**. Open to upstream collaboration around **AI agents, memory systems, inference tooling and infrastructure reliability**.
 
 *Contribution metrics use the October 16, 2026, 15:11 UTC+8 public snapshot. Counts cover merged PRs in repositories owned by others that are not forks; personal repositories and external forks are excluded.*

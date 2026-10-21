@@ -8,15 +8,15 @@
 
 I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
 
-**67 verified merged AI-ecosystem upstream PRs · 19 upstream projects · 47 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
+**71 verified merged AI-ecosystem upstream PRs · 22 upstream projects · 48 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
 
-**59 authored PRs + 8 additional coauthored PRs**, deduplicated by upstream repository and PR number.
+**62 authored PRs + 9 additional coauthored PRs**, deduplicated by upstream repository and PR number.
 
 From persistent agent memory and recoverable workflows to inference edge cases, I contribute focused fixes that make AI systems more dependable—and work with upstream reviewers to get them landed.
 
 ## Upstream impact
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 20 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
+- **[OpenViking](https://github.com/volcengine/OpenViking) — 21 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 18 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
 - **[Tencent ncnn](https://github.com/Tencent/ncnn) — 9 merged PRs.** Inference correctness, portability and Python binding lifetimes.
 
@@ -39,4 +39,4 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 
 Based in **Shenzhen, China**. Open to upstream collaboration around **AI agents, memory systems, inference tooling and infrastructure reliability**.
 
-*Verified baseline: October 20, 2026, 09:22 UTC+8; latest integration addition verified at 16:57 UTC+8. Counts cover merged PRs in external, non-fork AI-ecosystem upstream repositories, including verifiable coauthorship; each upstream PR is counted once. Personal repositories, forks and pending AI classifications are excluded. Coauthor discovery is evidence-based and not claimed globally exhaustive.*
+*Verified contribution snapshot: October 21, 2026, 09:58 UTC+8. Counts cover merged PRs in external, non-fork AI-ecosystem upstream repositories, including verifiable coauthorship; each upstream PR is counted once. Personal repositories, forks and pending AI classifications are excluded. Unchanged merge facts retain their original verification times; current author/coauthor search results and newly discovered merges were checked today. Search indexing and unlinked identities can leave gaps, so coauthor discovery is not claimed globally exhaustive.*

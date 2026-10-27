@@ -8,17 +8,15 @@
 
 I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
 
-**96 verified merged AI-ecosystem upstream PRs · 29 upstream projects · 65 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
-
-**84 authored PRs + 12 additional coauthored PRs**, deduplicated by upstream repository and PR number.
+**84 merged AI-ecosystem upstream PRs authored by me · 29 upstream projects · 53 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
 
 From persistent agent memory and recoverable workflows to inference edge cases, I contribute focused fixes that make AI systems more dependable—and work with upstream reviewers to get them landed.
 
 ## Upstream impact
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 26 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 30 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
-- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 9 merged PRs.** Inference correctness, portability and Python binding lifetimes.
+- **[OpenViking](https://github.com/volcengine/OpenViking) — 19 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 28 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
+- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 6 merged PRs.** Inference correctness, portability and Python binding lifetimes.
 
 ## Coauthored upstream contributions
 

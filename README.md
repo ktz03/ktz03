@@ -4,7 +4,7 @@
 
 **Agent Memory · Workflow Recovery · Inference Correctness**
 
-[My projects](https://github.com/ktz03?tab=repositories&q=is%3Apublic&type=source) · [Merged upstream contributions](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests) · [X / Twitter](https://x.com/ktz03) · [Personal website](https://www.zhumengmiao.me)
+[AIFlowHub](https://github.com/ktz03/AIFlowHub) · [Merged upstream contributions](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests) · [X / Twitter](https://x.com/ktz03) · [Personal website](https://www.zhumengmiao.me)
 
 I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
 
@@ -52,16 +52,15 @@ From persistent agent memory and recoverable workflows to inference edge cases, 
 - **Durable workflows:** [Persist HITL user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273) and [honor BreakLoop in declarative workflows](https://github.com/microsoft/agent-framework/pull/9091).
 - **Inference runtimes:** [Correct even-sized LRN channel windows](https://github.com/Tencent/ncnn/pull/7070) and [retain Python custom-layer factories for their required lifetime](https://github.com/Tencent/ncnn/pull/7049).
 - **Python infrastructure:** [Reject readonly buffers before consuming buffered data in fsspec](https://github.com/fsspec/filesystem_spec/pull/2260) and [preserve defaultdict batch conversion in PyTorch Ignite](https://github.com/pytorch/ignite/pull/3891).
-- **Numerical stability:** [Prevent overflow when summing probability-selection fitness in PyGAD](https://github.com/ahmedfgad/GeneticAlgorithmPython/pull/381).
+- **Numerical correctness:** [Fix complex-weight CP tensor norms in TensorLy](https://github.com/tensorly/tensorly/pull/656) — [walkthrough and minimal reproduction](notes/tensorly-complex-cp-norm.md). [Prevent overflow when summing probability-selection fitness in PyGAD](https://github.com/ahmedfgad/GeneticAlgorithmPython/pull/381).
 
 My contribution loop: **reproduce the failure → preserve normal behavior → add a focused regression → close the review loop**.
 
 Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx, RapidOCR, pyts, scikit-lego and Patsy**.
 
-## Projects I build
+## AIFlowHub
 
 - **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** — my independent continuation of Flowise, focused on skill-driven workflow generation, cloud/local LLM integration and quota, cost and evaluation tooling.
-- **[handoff-pack](https://github.com/ktz03/handoff-pack)** — a CLI that turns agent conversation messages into a compact handoff pack for the next model or session.
 
 Based in **Shenzhen, China**. Open to upstream collaboration around **AI agents, memory systems, inference tooling and infrastructure reliability**.
 

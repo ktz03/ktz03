@@ -8,27 +8,29 @@
 
 I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
 
-**84 merged AI-ecosystem upstream PRs authored by me · 29 upstream projects · 53 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
+**86 merged AI-ecosystem upstream PRs authored by me · 30 upstream projects · 54 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
 
 From persistent agent memory and recoverable workflows to inference edge cases, I contribute focused fixes that make AI systems more dependable—and work with upstream reviewers to get them landed.
 
 ## Upstream impact
 
 - **[OpenViking](https://github.com/volcengine/OpenViking) — 19 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 28 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 29 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
 - **[Tencent ncnn](https://github.com/Tencent/ncnn) — 6 merged PRs.** Inference correctness, portability and Python binding lifetimes.
 
 ## Coauthored upstream contributions
 
-**12 additional merged PRs as a coauthor · 3 upstream projects.**
+**13 additional merged PRs as a coauthor · 4 upstream projects.**
 
 - **[OpenViking](https://github.com/volcengine/OpenViking) — 7 coauthored PRs.**
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 2 coauthored PRs.**
 - **[Tencent ncnn](https://github.com/Tencent/ncnn) — 3 coauthored PRs.**
+- **[Zuko](https://github.com/probabilists/zuko) — 1 coauthored PR.**
 
 <details>
-<summary><strong>View 12 coauthored PRs</strong></summary>
+<summary><strong>View 13 coauthored PRs</strong></summary>
 
+- [probabilists/zuko#83](https://github.com/probabilists/zuko/pull/83) — Include broadcast bounds in Truncated batch shape · PR by [@francois-rozet](https://github.com/francois-rozet) · [coauthor credit](https://github.com/probabilists/zuko/commit/c000b19adbf0c0e83c612b3e826e896bd967fcf7)
 - [volcengine/OpenViking#6479](https://github.com/volcengine/OpenViking/pull/6479) — fix(langchain): isolate session commits and report reset failures · PR by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/2260f6899e882a8d7f693cca4dd8559dfc66b8cf)
 - [volcengine/OpenViking#6404](https://github.com/volcengine/OpenViking/pull/6404) — fix(langchain): honor nested filters and index field selectors · PR by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/d5022f57559fef83b14c63789ca75a0b2dc7a9c9)
 - [volcengine/OpenViking#6342](https://github.com/volcengine/OpenViking/pull/6342) — fix(langchain): preserve Store reads and namespace discovery · PR by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/6ec6116b7beb83d99cc87303076613cfabc47731)
@@ -63,4 +65,4 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 
 Based in **Shenzhen, China**. Open to upstream collaboration around **AI agents, memory systems, inference tooling and infrastructure reliability**.
 
-*Contribution snapshot: October 27, 2026, 10:31 UTC+8.*
+*Contribution snapshot: October 28, 2026, 09:14 UTC+8.*

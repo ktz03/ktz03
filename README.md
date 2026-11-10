@@ -8,28 +8,29 @@
 
 I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
 
-**88 merged AI-ecosystem upstream PRs authored by me · 31 upstream projects · 55 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
+**97 merged AI-ecosystem upstream PRs authored by me · 33 upstream projects · 58 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
 
 From persistent agent memory and recoverable workflows to inference edge cases, I contribute focused fixes that make AI systems more dependable—and work with upstream reviewers to get them landed.
 
 ## Upstream impact
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 20 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 29 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
-- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 6 merged PRs.** Inference correctness, portability and Python binding lifetimes.
+- **[OpenViking](https://github.com/volcengine/OpenViking) — 21 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 30 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
+- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 7 merged PRs.** Inference correctness, portability and Python binding lifetimes.
 
 ## Coauthored upstream contributions
 
-**13 additional merged PRs as a coauthor · 4 upstream projects.**
+**14 additional merged PRs as a coauthor · 4 upstream projects.**
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 7 coauthored PRs.**
+- **[OpenViking](https://github.com/volcengine/OpenViking) — 8 coauthored PRs.**
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 2 coauthored PRs.**
 - **[Tencent ncnn](https://github.com/Tencent/ncnn) — 3 coauthored PRs.**
 - **[Zuko](https://github.com/probabilists/zuko) — 1 coauthored PR.**
 
 <details>
-<summary><strong>View 13 coauthored PRs</strong></summary>
+<summary><strong>View 14 coauthored PRs</strong></summary>
 
+- [volcengine/OpenViking#7040](https://github.com/volcengine/OpenViking/pull/7040) — fix(langchain): preserve Unicode archive query terms · PR by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/8dc1121102ab80378bac6e29a5ec2be798839717)
 - [probabilists/zuko#83](https://github.com/probabilists/zuko/pull/83) — Include broadcast bounds in Truncated batch shape · PR by [@francois-rozet](https://github.com/francois-rozet) · [coauthor credit](https://github.com/probabilists/zuko/commit/c000b19adbf0c0e83c612b3e826e896bd967fcf7)
 - [volcengine/OpenViking#6479](https://github.com/volcengine/OpenViking/pull/6479) — fix(langchain): isolate session commits and report reset failures · PR by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/2260f6899e882a8d7f693cca4dd8559dfc66b8cf)
 - [volcengine/OpenViking#6404](https://github.com/volcengine/OpenViking/pull/6404) — fix(langchain): honor nested filters and index field selectors · PR by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/d5022f57559fef83b14c63789ca75a0b2dc7a9c9)
@@ -64,4 +65,4 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 
 Based in **Shenzhen, China**. Open to upstream collaboration around **AI agents, memory systems, inference tooling and infrastructure reliability**.
 
-*Contribution snapshot: October 29, 2026, 09:24 UTC+8.*
+*Contribution snapshot: November 10, 2026, 09:45 UTC+8.*

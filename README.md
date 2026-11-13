@@ -8,13 +8,13 @@
 
 I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
 
-**97 merged AI-ecosystem upstream PRs authored by me · 33 upstream projects · 58 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
+**99 merged AI-ecosystem upstream PRs authored by me · 34 upstream projects · 59 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
 
 From persistent agent memory and recoverable workflows to inference edge cases, I contribute focused fixes that make AI systems more dependable—and work with upstream reviewers to get them landed.
 
 ## Upstream impact
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 21 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
+- **[OpenViking](https://github.com/volcengine/OpenViking) — 22 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 30 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
 - **[Tencent ncnn](https://github.com/Tencent/ncnn) — 7 merged PRs.** Inference correctness, portability and Python binding lifetimes.
 
@@ -65,4 +65,4 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 
 Based in **Shenzhen, China**. Open to upstream collaboration around **AI agents, memory systems, inference tooling and infrastructure reliability**.
 
-*Contribution snapshot: November 10, 2026, 09:45 UTC+8.*
+*Contribution snapshot: November 13, 2026, 09:50 UTC+8.*

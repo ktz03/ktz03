@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title description">
+<title id="title">ktz03 · AI Ecosystem Builder</title>
+<desc id="description">A vivid digital world and connected agent systems representing embodied AI and world models.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b32"/><stop offset=".55" stop-color="#101d3d"/><stop offset="1" stop-color="#163b48"/></linearGradient>
+<linearGradient id="ac" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#80f3d7"/><stop offset=".55" stop-color="#6ba8ff"/><stop offset="1" stop-color="#b89dff"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#54c6c4" stop-opacity=".27"/><stop offset=".55" stop-color="#5888e9" stop-opacity=".10"/><stop offset="1" stop-color="#538ae2" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a7d4ed" stroke-opacity=".045"/></pattern>
+<clipPath id="clip"><circle cx="1138" cy="220" r="133"/></clipPath>
+</defs>
+<rect width="1440" height="440" rx="18" fill="url(#bg)"/>
+<rect width="1440" height="440" fill="url(#grid)"/>
+<circle cx="1138" cy="220" r="220" fill="url(#glow)"/>
+<path d="M0 437 H1440" stroke="url(#ac)" stroke-width="4" opacity=".65"/>
+<path d="M74 82h38" stroke="#76efd5" stroke-width="4" stroke-linecap="round"/>
+<text x="128" y="90" fill="#a9ddd9" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="600" letter-spacing="2">LI / KTZ03</text>
+<text x="72" y="178" fill="#f5f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-1.8">AI Ecosystem</text>
+<text x="72" y="258" fill="url(#ac)" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-1.8">Builder.</text>
+<text x="76" y="319" fill="#d9e7f3" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="600">Embodied AI  ×  World Models</text>
+<text x="76" y="358" fill="#a8c2d5" font-family="Segoe UI,Arial,sans-serif" font-size="20">Agent workflows  ·  Memory  ·  Inference</text>
+<g fill="none">
+<circle cx="1138" cy="220" r="133" stroke="url(#ac)" stroke-width="2" opacity=".9"/>
+<ellipse cx="1138" cy="220" rx="70" ry="133" stroke="#a8dbf5" opacity=".5"/>
+<ellipse cx="1138" cy="220" rx="133" ry="48" stroke="#a8dbf5" opacity=".5"/>
+<ellipse cx="1138" cy="220" rx="133" ry="94" stroke="#a8dbf5" opacity=".24"/>
+<path d="M1005 220h266 M1138 87v266" stroke="#b2c9f2" opacity=".35"/>
+<g clip-path="url(#clip)" stroke="#b2c9f2" opacity=".25"><path d="M1005 153h266 M1005 287h266 M1044 126l188 188 M1044 314l188-188"/></g>
+<ellipse cx="1138" cy="220" rx="206" ry="95" transform="rotate(-28 1138 220)" stroke="#84e8d9" stroke-width="2" opacity=".7"/>
+<ellipse cx="1138" cy="220" rx="212" ry="102" transform="rotate(25 1138 220)" stroke="#a28cf3" stroke-width="1.5" opacity=".42"/>
+<path d="M850 151h98l54 33 M828 295h105l84-42 M934 103h54l54 34" stroke="url(#ac)" stroke-width="2" opacity=".68"/>
+<rect x="824" y="132" width="38" height="38" rx="10" stroke="#78e5d4" stroke-width="2"/>
+<rect x="805" y="276" width="38" height="38" rx="10" stroke="#88aeff" stroke-width="2"/>
+<rect x="916" y="85" width="34" height="34" rx="9" stroke="#b5a1ff" stroke-width="2"/>
+</g>
+<g fill="#a6ffeb"><circle cx="1002" cy="184" r="5"/><circle cx="1231" cy="127" r="5"/><circle cx="1252" cy="265" r="5"/></g>
+<g fill="#c2b5ff"><circle cx="1017" cy="253" r="4"/><circle cx="1168" cy="321" r="4"/><circle cx="1064" cy="107" r="4"/></g>
+</svg>

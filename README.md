@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/ai-ecosystem-banner.svg" alt="ktz03, AI Ecosystem Builder — embodied AI and world models" width="100%"/>
+</p>
+
 <div align="center">
   <h1>LI</h1>
   <h3>AI Ecosystem Builder</h3>

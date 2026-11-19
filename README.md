@@ -27,7 +27,22 @@
   </tr>
 </table>
 
-[Project highlights](#open-source-contributions) · [Coauthored work](#collaboration) · [View merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)
+[Contribution cases](#open-source-contributions) · [Coauthored work](#collaboration) · [Personal tools](#personal-tools) · [View merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)
+
+## Embodied AI and world models
+
+Working on **embodied AI and world models**, building on experience across agent workflows, memory and inference.
+
+**My direction:** explore how an agent can understand its environment, retain context, make decisions and act with feedback. World models are part of how I think about connecting these capabilities.
+
+`Perception` → `Context & memory` → `Agent decisions` → `Action & feedback`
+
+Open to collaboration around AI agents, memory systems, inference and embodied AI.
+
+## Personal tools
+
+- **[handoff-pack](https://github.com/ktz03/handoff-pack)** · Agent context handoff — turn conversations into a resumable packet for another model.
+- **[traj-wash](https://github.com/ktz03/traj-wash)** · Agent trajectory diagnosis — locate the first failure and trim repeated failed steps for evaluation.
 
 ## Open-source contributions
 
@@ -49,7 +64,7 @@
 
 Agent orchestration, recoverable workflows and checkpoints. In the historical snapshot: **30 authored** and **2 coauthored** PRs.
 
-- Preserved [human-in-the-loop user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273).
+- **Recoverable human-in-the-loop workflows:** Preserved user text in thread snapshots. [Microsoft Agent Framework #8273](https://github.com/microsoft/agent-framework/pull/8273).
 - Fixed [BreakLoop handling in declarative workflows](https://github.com/microsoft/agent-framework/pull/9091).
 
 <sub>The repository and historical PR links were unavailable when checked on November 18, 2026; the figures are from earlier verified records.</sub>
@@ -61,7 +76,7 @@ Agent orchestration, recoverable workflows and checkpoints. In the historical sn
 Memory, context and agent integrations. In the historical snapshot: **22 authored** and **8 coauthored** PRs.
 
 - Fixed [CR-delimited MCP event stream parsing](https://github.com/volcengine/OpenViking/pull/5973).
-- Fixed [Windows development CLI executable discovery](https://github.com/volcengine/OpenViking/pull/7251).
+- **Windows CLI discovery:** The launcher could miss an existing development executable; the fix selects the Windows filename while preserving the existing lookup order. [OpenViking #7251](https://github.com/volcengine/OpenViking/pull/7251).
 
 ### ⚙️ [Tencent ncnn](https://github.com/Tencent/ncnn) · Inference
 
@@ -69,14 +84,14 @@ Memory, context and agent integrations. In the historical snapshot: **22 authore
 
 Inference correctness, portability and bindings. In the historical snapshot: **7 authored** and **3 coauthored** PRs.
 
-- Improved [LogSumExp stability on CPU and Vulkan](https://github.com/Tencent/ncnn/pull/7055).
+- **Numerically stable inference:** Extreme finite inputs could produce infinities; the fix stabilizes LogSumExp on CPU and Vulkan. [ncnn #7055](https://github.com/Tencent/ncnn/pull/7055).
 - Addressed [FP16 GELU overflow on ARM and RISC-V](https://github.com/Tencent/ncnn/pull/7060).
 
 ## Collaboration
 
 These contributions landed through PRs opened by other authors, with coauthor credit retained in the upstream commits.
 
-- **OpenViking:** Preserved [conversation text, roles and tool history](https://github.com/volcengine/OpenViking/pull/6275), with [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41).
+- **OpenViking × LangChain:** Helped preserve conversation text, roles and tool history that could otherwise be lost. [OpenViking #6275](https://github.com/volcengine/OpenViking/pull/6275) was opened by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41).
 - **Tencent ncnn:** Improved [bool MemoryData handling in pnnx](https://github.com/Tencent/ncnn/pull/7006), with [@nihui](https://github.com/nihui) · [coauthor credit](https://github.com/Tencent/ncnn/commit/8bc95a1e7fe430c0d6f988f6318c1a8791b78062).
 - **[Zuko](https://github.com/probabilists/zuko):** Included [broadcast bounds in truncated batch shapes](https://github.com/probabilists/zuko/pull/83), with [@francois-rozet](https://github.com/francois-rozet) · [coauthor credit](https://github.com/probabilists/zuko/commit/c000b19adbf0c0e83c612b3e826e896bd967fcf7).
 
@@ -117,12 +132,3 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 
 </details>
 
-## Embodied AI and world models
-
-Working on **embodied AI and world models**, building on experience across agent workflows, memory and inference.
-
-**The direction I'm exploring:** connecting perception, context and memory, agent decisions, and action with feedback. World models are part of how I think about helping agents understand and interact with environments.
-
-`Perception` → `Context & memory` → `Agent decisions` → `Action & feedback`
-
-Open to collaboration around AI agents, memory systems, inference and embodied AI.

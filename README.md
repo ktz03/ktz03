@@ -1,31 +1,41 @@
 # ktz03
 
-### Upstream AI Contributor
+### AI Ecosystem Builder
 
-**Agent Memory · Workflow Recovery · Inference Correctness**
+Core contributor to **Microsoft Agent Framework**, **ByteDance's OpenViking**, and **Tencent's ncnn**. Working on **embodied AI and world models**.
 
-[AIFlowHub](https://github.com/ktz03/AIFlowHub) · [Merged upstream contributions](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests) · [X / Twitter](https://x.com/ktz03) · [Personal website](https://www.zhumengmiao.me)
+I connect agent orchestration, memory and context, and inference runtimes through upstream fixes and collaboration.
 
-I contribute upstream fixes to **[OpenViking](https://github.com/volcengine/OpenViking), [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) and [Tencent ncnn](https://github.com/Tencent/ncnn)**, working across agent integrations, recoverable workflows and inference runtimes.
+[Personal website](https://www.zhumengmiao.me) · [X / Twitter](https://x.com/ktz03) · [Merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)
 
-**99 merged AI-ecosystem upstream PRs authored by me · 34 upstream projects · 59 merges across OpenViking, Microsoft Agent Framework and Tencent ncnn.**
+## Open-source contributions
 
-From persistent agent memory and recoverable workflows to inference edge cases, I contribute focused fixes that make AI systems more dependable—and work with upstream reviewers to get them landed.
+**113 merged upstream PRs: 99 authored and 14 additional coauthored · 35 upstream projects**
 
-## Upstream impact
+This is a public upstream snapshot from **November 14, 2026**. Coauthored work is a verified lower bound, not a complete count.
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 22 merged PRs.** Agent memory and retrieval integrations, MCP streams, transport handling and OpenWebUI compatibility.
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 30 merged PRs.** Conversation persistence, human-in-the-loop recovery and declarative workflow correctness.
-- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 7 merged PRs.** Inference correctness, portability and Python binding lifetimes.
+| Ecosystem | Authored | Coauthored | Areas |
+| --- | ---: | ---: | --- |
+| [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 30 | 2 | Agent orchestration, workflow recovery and checkpoints |
+| [OpenViking](https://github.com/volcengine/OpenViking) | 22 | 8 | Agent memory, integrations and context handling |
+| [Tencent ncnn](https://github.com/Tencent/ncnn) | 7 | 3 | Inference correctness, portability and bindings |
+| [Zuko](https://github.com/probabilists/zuko) | — | 1 | Numerical correctness |
 
-## Coauthored upstream contributions
+Microsoft Agent Framework's repository and related links are currently unavailable; its figures above reflect previously verified historical records.
 
-**14 additional merged PRs as a coauthor · 4 upstream projects.**
+## Selected authored work
 
-- **[OpenViking](https://github.com/volcengine/OpenViking) — 8 coauthored PRs.**
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — 2 coauthored PRs.**
-- **[Tencent ncnn](https://github.com/Tencent/ncnn) — 3 coauthored PRs.**
-- **[Zuko](https://github.com/probabilists/zuko) — 1 coauthored PR.**
+- **Agent memory and integration — OpenViking:** Fixed [CR-delimited MCP event stream parsing](https://github.com/volcengine/OpenViking/pull/5973) and [Windows development CLI executable discovery](https://github.com/volcengine/OpenViking/pull/7251).
+- **Agent orchestration — Microsoft Agent Framework:** Contributed fixes for [HITL user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273) and [BreakLoop in declarative workflows](https://github.com/microsoft/agent-framework/pull/9091). These historical PR links may currently be unavailable.
+- **Inference — Tencent ncnn:** Improved [LogSumExp stability on CPU and Vulkan](https://github.com/Tencent/ncnn/pull/7055) and addressed [FP16 GELU overflow on ARM and RISC-V](https://github.com/Tencent/ncnn/pull/7060).
+
+## Collaboration and coauthored work
+
+These contributions landed through PRs opened by other authors, with coauthor credit retained in the upstream commits.
+
+- **OpenViking:** Preserved [conversation text, roles and tool history](https://github.com/volcengine/OpenViking/pull/6275), with [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41).
+- **Tencent ncnn:** Improved [bool MemoryData handling in pnnx](https://github.com/Tencent/ncnn/pull/7006), with [@nihui](https://github.com/nihui) · [coauthor credit](https://github.com/Tencent/ncnn/commit/8bc95a1e7fe430c0d6f988f6318c1a8791b78062).
+- **Zuko:** Included [broadcast bounds in truncated batch shapes](https://github.com/probabilists/zuko/pull/83), with [@francois-rozet](https://github.com/francois-rozet) · [coauthor credit](https://github.com/probabilists/zuko/commit/c000b19adbf0c0e83c612b3e826e896bd967fcf7).
 
 <details>
 <summary><strong>View 14 coauthored PRs</strong></summary>
@@ -47,6 +57,9 @@ From persistent agent memory and recoverable workflows to inference edge cases, 
 
 </details>
 
+<details>
+<summary><strong>More selected upstream work</strong></summary>
+
 ## Selected work: fixes that landed upstream
 
 - **Agent integrations:** [Handle CR-delimited MCP event streams](https://github.com/volcengine/OpenViking/pull/5973) and [support bracketed IPv6 bind addresses in the OpenWebUI integration](https://github.com/volcengine/OpenViking/pull/6106).
@@ -59,10 +72,10 @@ My contribution loop: **reproduce the failure → preserve normal behavior → a
 
 Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx, RapidOCR, pyts, scikit-lego and Patsy**.
 
-## AIFlowHub
+</details>
 
-- **[AIFlowHub](https://github.com/ktz03/AIFlowHub)** — my independent continuation of Flowise, focused on skill-driven workflow generation, cloud/local LLM integration and quota, cost and evaluation tooling.
+## Current direction
 
-Based in **Shenzhen, China**. Open to upstream collaboration around **AI agents, memory systems, inference tooling and infrastructure reliability**.
+Working on **embodied AI and world models**, building on experience across agent workflows, memory and inference.
 
-*Contribution snapshot: November 13, 2026, 09:50 UTC+8.*
+Based in **Shenzhen, China**. Open to collaboration around AI agents, memory systems, inference and embodied AI.

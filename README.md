@@ -1,14 +1,9 @@
-<p align="center">
-  <img src="assets/ai-ecosystem-banner.svg" alt="ktz03, AI Ecosystem Builder — embodied AI and world models" width="100%"/>
-</p>
-
 <div align="center">
-  <h1>LI</h1>
-  <h3>AI Ecosystem Builder</h3>
-  <p><code>Agent workflows</code> &nbsp; <code>Memory &amp; context</code> &nbsp; <code>Inference</code></p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&amp;weight=700&amp;size=17&amp;color=0078D7&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=40&amp;pause=100000&amp;lines=Hi%2C+I%27m+LI.+AI+Ecosystem+Builder" alt="Hi, I'm LI. AI Ecosystem Builder."/>
+  <p>🌐 <strong>Connecting the AI ecosystem — from agent workflows and memory to inference.</strong></p>
   <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance's OpenViking</strong>, and <strong>Tencent's ncnn</strong>.</p>
-  <p><strong>Working on embodied AI and world models.</strong></p>
-  <p>📍 Shenzhen, China &nbsp;·&nbsp; <a href="https://www.zhumengmiao.me">Personal website</a> &nbsp;·&nbsp; <a href="https://x.com/ktz03">X / Twitter</a></p>
+  <p>🚀 Working on <strong>embodied AI and world models</strong>.</p>
+  <p><code>📍 Shenzhen, China</code> &nbsp;·&nbsp; <a href="https://www.zhumengmiao.me">Personal website</a> &nbsp;·&nbsp; <a href="https://x.com/ktz03">X / Twitter</a></p>
 </div>
 
 ## Building across the AI ecosystem

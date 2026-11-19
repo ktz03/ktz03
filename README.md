@@ -8,7 +8,24 @@
 
 ## Building across the AI ecosystem
 
-I connect agent orchestration, memory and inference through upstream fixes and collaboration. My current direction extends that work into **embodied AI and world models**.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 Open-source ecosystems</h3>
+      <p><strong>Building across the AI stack</strong></p>
+      <p>🤖 <a href="https://github.com/microsoft/agent-framework"><strong>Microsoft Agent Framework</strong></a><br/><sub>Agent workflows and recovery</sub></p>
+      <p>🧠 <a href="https://github.com/volcengine/OpenViking"><strong>OpenViking</strong></a><br/><sub>Agent memory and context</sub></p>
+      <p>⚙️ <a href="https://github.com/Tencent/ncnn"><strong>Tencent ncnn</strong></a><br/><sub>Efficient inference and correctness</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧭 Towards embodied intelligence</h3>
+      <p><strong>Embodied AI &amp; world models</strong></p>
+      <p>Exploring how agent decision-making, memory and inference can connect with perception and action.</p>
+      <p><code>Perception</code> <code>World models</code><br/><code>Agent decisions</code> <code>Action &amp; feedback</code></p>
+      <p><a href="#embodied-ai-and-world-models">Explore my direction →</a></p>
+    </td>
+  </tr>
+</table>
 
 [Project highlights](#open-source-contributions) · [Coauthored work](#collaboration) · [View merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)
 
@@ -28,6 +45,8 @@ I connect agent orchestration, memory and inference through upstream fixes and c
 
 ### 🤖 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) · Agent workflows
 
+`Agent workflows` · `Recovery` · `Checkpoints`
+
 Agent orchestration, recoverable workflows and checkpoints. In the historical snapshot: **30 authored** and **2 coauthored** PRs.
 
 - Preserved [human-in-the-loop user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273).
@@ -37,12 +56,16 @@ Agent orchestration, recoverable workflows and checkpoints. In the historical sn
 
 ### 🧠 [OpenViking](https://github.com/volcengine/OpenViking) · Agent memory
 
+`Agent memory` · `Context` · `Integrations`
+
 Memory, context and agent integrations. In the historical snapshot: **22 authored** and **8 coauthored** PRs.
 
 - Fixed [CR-delimited MCP event stream parsing](https://github.com/volcengine/OpenViking/pull/5973).
 - Fixed [Windows development CLI executable discovery](https://github.com/volcengine/OpenViking/pull/7251).
 
 ### ⚙️ [Tencent ncnn](https://github.com/Tencent/ncnn) · Inference
+
+`Inference` · `Correctness` · `Portability`
 
 Inference correctness, portability and bindings. In the historical snapshot: **7 authored** and **3 coauthored** PRs.
 
@@ -97,5 +120,9 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 ## Embodied AI and world models
 
 Working on **embodied AI and world models**, building on experience across agent workflows, memory and inference.
+
+**The direction I'm exploring:** connecting perception, context and memory, agent decisions, and action with feedback. World models are part of how I think about helping agents understand and interact with environments.
+
+`Perception` → `Context & memory` → `Agent decisions` → `Action & feedback`
 
 Open to collaboration around AI agents, memory systems, inference and embodied AI.

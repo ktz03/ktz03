@@ -1,20 +1,24 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&amp;weight=700&amp;size=17&amp;color=0078D7&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=40&amp;pause=100000&amp;lines=Hi%2C+I%27m+LI.+AI+Ecosystem+Builder" alt="Hi, I'm LI. AI Ecosystem Builder."/>
-  <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance’s OpenViking</strong>, and <strong>Tencent’s ncnn</strong>.<br/>I connect agent workflows, memory and inference. My current focus is <strong>embodied AI and world models</strong>.</p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&amp;weight=700&amp;size=17&amp;color=0078D7&amp;center=true&amp;vCenter=true&amp;width=400&amp;height=40&amp;pause=100000&amp;lines=Hi%2C+I%27m+LI.+AI+Ecosystem+Builder" alt="Hi, I'm LI. AI Ecosystem Builder."/>
+  <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance’s OpenViking</strong>, and <strong>Tencent’s ncnn</strong>.<br/>I build reliability into the systems that agents depend on, from workflow recovery and persistent memory to inference on edge devices.</p>
+  <p>My research focus is <strong>embodied AI and world models</strong>. How should an agent change its next move when the world differs from its prediction?</p>
   <p><code>Shenzhen, China</code> &nbsp;·&nbsp; <a href="https://www.zhumengmiao.me">Website</a> &nbsp;·&nbsp; <a href="https://x.com/ktz03">X</a></p>
 </div>
 
-## Open-source contributions
+## Three layers of AI infrastructure
 
-| Project and role | Selected upstream work |
+| Project and role | What changed upstream |
 | --- | --- |
-| **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** · Core contributor | Preserved the user’s reply in a thread snapshot so it survives workflow recovery. [Contribution record](https://github.com/ktz03/ktz03/blob/4ab7c8698e5a239b1a74b68093347712656016c8/README.md?plain=1#L61) · [Historical PR #8273](https://github.com/microsoft/agent-framework/pull/8273) |
-| **[ByteDance’s OpenViking](https://github.com/volcengine/OpenViking)** · Core contributor | Coauthored the LangChain fix that preserves message text, speaker roles, and tool-call history when a conversation is restored. [PR #6275, opened by @ehz0ah](https://github.com/volcengine/OpenViking/pull/6275) · [Coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41) |
-| **[Tencent’s ncnn](https://github.com/Tencent/ncnn)** · Core contributor | Fixed LogSumExp on CPU and Vulkan so inputs like `[1000, 1000]` produce a finite result. [PR #7055](https://github.com/Tencent/ncnn/pull/7055) · [Numerical example](notes/ncnn-logsumexp.md) |
+| **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework)** · Core contributor | **Workflow recovery.** I changed thread snapshots to retain a human reply so a workflow can resume with the answer already given. [Contribution record](https://github.com/ktz03/ktz03/blob/4ab7c8698e5a239b1a74b68093347712656016c8/README.md?plain=1#L61) · [Historical PR #8273](https://github.com/microsoft/agent-framework/pull/8273) |
+| **[ByteDance’s OpenViking](https://github.com/volcengine/OpenViking)** · Core contributor | **Agent memory.** I coauthored the LangChain fix that lets a restored conversation retain what was said, who said it, and which tools were called. [PR #6275, opened by @ehz0ah](https://github.com/volcengine/OpenViking/pull/6275) · [Coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41) |
+| **[Tencent’s ncnn](https://github.com/Tencent/ncnn)** · Core contributor | **Inference reliability.** I stabilized LogSumExp on CPU and Vulkan. Both backends now return a finite result for inputs like `[1000, 1000]`. [PR #7055](https://github.com/Tencent/ncnn/pull/7055) · [Numerical example](notes/ncnn-logsumexp.md) |
+
+Of the **113 merged PRs across 35 upstream projects** in my [November 14, 2026 record](https://github.com/ktz03/ktz03/blob/4ab7c8698e5a239b1a74b68093347712656016c8/README.md?plain=1#L17), **72 are in the three projects above**. I opened 99 of the 113 and am credited as a coauthor on the other 14.
 
 ## Collaboration
 
-In OpenViking, [@ehz0ah](https://github.com/ehz0ah) brought our fixes together in the upstream PR. [How we preserved conversation history](notes/openviking-langchain-collaboration.md). In ncnn, I worked with [@nihui](https://github.com/nihui) on how the pnnx converter stores boolean constants. [PR #7006](https://github.com/Tencent/ncnn/pull/7006) · [Coauthor credit](https://github.com/Tencent/ncnn/commit/8bc95a1e7fe430c0d6f988f6318c1a8791b78062).
+- [@ehz0ah](https://github.com/ehz0ah) brought our LangChain fixes together and opened the OpenViking PR. [How we preserved conversation history](notes/openviking-langchain-collaboration.md).
+- In Tencent ncnn, [@nihui](https://github.com/nihui) and I share credit on three merged PRs. In one, we changed how the pnnx converter stores boolean constants. [PR #7006](https://github.com/Tencent/ncnn/pull/7006) · [Coauthor credit](https://github.com/Tencent/ncnn/commit/8bc95a1e7fe430c0d6f988f6318c1a8791b78062).
 
 <details>
 <summary><strong>View 14 coauthored PRs</strong></summary>
@@ -38,17 +42,17 @@ In OpenViking, [@ehz0ah](https://github.com/ehz0ah) brought our fixes together i
 
 ## Embodied AI and world models
 
-I’m exploring how an agent can predict what its next action will change, compare that prediction with the next observation, and use the difference to choose its next move.
+A robot can finish a grasp motion while the object stays on the table. That gap is the problem I’m working on in embodied AI. A world model predicts what an action will change. The next observation gives the agent evidence to continue, retry, or choose a different action.
 
-### Personal tools
+## Agent developer tools I created
 
-- [**handoff-pack**](https://github.com/ktz03/handoff-pack) turns a conversation into a compact handoff another model can resume.
-- [**traj-wash**](https://github.com/ktz03/traj-wash) finds the first failed step in an agent run and trims repeated failures for evaluation.
+- [**handoff-pack**](https://github.com/ktz03/handoff-pack) carries context between models or sessions. It prioritizes instructions, tool errors, and recent messages, then writes a compact Markdown or JSON handoff. [Example conversation](https://github.com/ktz03/handoff-pack/blob/master/examples/long.session.json).
+- [**traj-wash**](https://github.com/ktz03/traj-wash) prepares agent trajectories for evaluation and supervised fine-tuning. It keeps the first failed step as evidence and trims the retries that follow. In the [seven-step example](https://github.com/ktz03/traj-wash/blob/master/examples/bad.trajectory.json), four steps remain.
 
 <details>
 <summary><strong>Full contribution record and more project cases</strong></summary>
 
-**113 merged PRs across 35 upstream projects** in my Nov 14, 2026 snapshot. I opened 99. At least 14 more credit me as a coauthor. [Browse publicly searchable authored PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests).
+[Browse publicly searchable authored PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests).
 
 ### 🤖 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) · Agent workflows
 

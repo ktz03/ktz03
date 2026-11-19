@@ -1,41 +1,51 @@
-# ktz03
+<div align="center">
+  <h1>Hi, I'm LI 👋</h1>
+  <h3>AI Ecosystem Builder</h3>
+  <p><strong>Agent workflows · Memory and context · Inference</strong></p>
+  <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance's OpenViking</strong>, and <strong>Tencent's ncnn</strong>.</p>
+  <p>Working on <strong>embodied AI and world models</strong>.</p>
+  <p>📍 Shenzhen, China · <a href="https://www.zhumengmiao.me">Personal website</a> · <a href="https://x.com/ktz03">X / Twitter</a></p>
+</div>
 
-### AI Ecosystem Builder
+## 💻 Open-source contributions
 
-Core contributor to **Microsoft Agent Framework**, **ByteDance's OpenViking**, and **Tencent's ncnn**. Working on **embodied AI and world models**.
+I work across the AI stack, connecting agent orchestration, memory and inference through upstream fixes and collaboration.
 
-I connect agent orchestration, memory and context, and inference runtimes through upstream fixes and collaboration.
+**113 merged upstream PRs** · **35 upstream projects**  
+99 authored PRs + 14 additional coauthored PRs
 
-[Personal website](https://www.zhumengmiao.me) · [X / Twitter](https://x.com/ktz03) · [Merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)
+<sub>Public upstream snapshot as of November 14, 2026. Coauthored work is a verified lower bound.</sub>
 
-## Open-source contributions
+### 🤖 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) · Agent workflows
 
-**113 merged upstream PRs: 99 authored and 14 additional coauthored · 35 upstream projects**
+Agent orchestration, recoverable workflows and checkpoints. In the historical snapshot: **30 authored** and **2 coauthored** PRs.
 
-This is a public upstream snapshot from **November 14, 2026**. Coauthored work is a verified lower bound, not a complete count.
+- Preserved [human-in-the-loop user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273).
+- Fixed [BreakLoop handling in declarative workflows](https://github.com/microsoft/agent-framework/pull/9091).
 
-| Ecosystem | Authored | Coauthored | Areas |
-| --- | ---: | ---: | --- |
-| [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 30 | 2 | Agent orchestration, workflow recovery and checkpoints |
-| [OpenViking](https://github.com/volcengine/OpenViking) | 22 | 8 | Agent memory, integrations and context handling |
-| [Tencent ncnn](https://github.com/Tencent/ncnn) | 7 | 3 | Inference correctness, portability and bindings |
-| [Zuko](https://github.com/probabilists/zuko) | — | 1 | Numerical correctness |
+<sub>The repository and historical PR links were unavailable when checked on November 18, 2026; the figures are from earlier verified records.</sub>
 
-Microsoft Agent Framework's repository and related links are currently unavailable; its figures above reflect previously verified historical records.
+### 🧠 [OpenViking](https://github.com/volcengine/OpenViking) · Agent memory
 
-## Selected authored work
+Memory, context and agent integrations. In the historical snapshot: **22 authored** and **8 coauthored** PRs.
 
-- **Agent memory and integration — OpenViking:** Fixed [CR-delimited MCP event stream parsing](https://github.com/volcengine/OpenViking/pull/5973) and [Windows development CLI executable discovery](https://github.com/volcengine/OpenViking/pull/7251).
-- **Agent orchestration — Microsoft Agent Framework:** Contributed fixes for [HITL user text in thread snapshots](https://github.com/microsoft/agent-framework/pull/8273) and [BreakLoop in declarative workflows](https://github.com/microsoft/agent-framework/pull/9091). These historical PR links may currently be unavailable.
-- **Inference — Tencent ncnn:** Improved [LogSumExp stability on CPU and Vulkan](https://github.com/Tencent/ncnn/pull/7055) and addressed [FP16 GELU overflow on ARM and RISC-V](https://github.com/Tencent/ncnn/pull/7060).
+- Fixed [CR-delimited MCP event stream parsing](https://github.com/volcengine/OpenViking/pull/5973).
+- Fixed [Windows development CLI executable discovery](https://github.com/volcengine/OpenViking/pull/7251).
 
-## Collaboration and coauthored work
+### ⚙️ [Tencent ncnn](https://github.com/Tencent/ncnn) · Inference
+
+Inference correctness, portability and bindings. In the historical snapshot: **7 authored** and **3 coauthored** PRs.
+
+- Improved [LogSumExp stability on CPU and Vulkan](https://github.com/Tencent/ncnn/pull/7055).
+- Addressed [FP16 GELU overflow on ARM and RISC-V](https://github.com/Tencent/ncnn/pull/7060).
+
+## 🤝 Collaboration
 
 These contributions landed through PRs opened by other authors, with coauthor credit retained in the upstream commits.
 
 - **OpenViking:** Preserved [conversation text, roles and tool history](https://github.com/volcengine/OpenViking/pull/6275), with [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41).
 - **Tencent ncnn:** Improved [bool MemoryData handling in pnnx](https://github.com/Tencent/ncnn/pull/7006), with [@nihui](https://github.com/nihui) · [coauthor credit](https://github.com/Tencent/ncnn/commit/8bc95a1e7fe430c0d6f988f6318c1a8791b78062).
-- **Zuko:** Included [broadcast bounds in truncated batch shapes](https://github.com/probabilists/zuko/pull/83), with [@francois-rozet](https://github.com/francois-rozet) · [coauthor credit](https://github.com/probabilists/zuko/commit/c000b19adbf0c0e83c612b3e826e896bd967fcf7).
+- **[Zuko](https://github.com/probabilists/zuko):** Included [broadcast bounds in truncated batch shapes](https://github.com/probabilists/zuko/pull/83), with [@francois-rozet](https://github.com/francois-rozet) · [coauthor credit](https://github.com/probabilists/zuko/commit/c000b19adbf0c0e83c612b3e826e896bd967fcf7).
 
 <details>
 <summary><strong>View 14 coauthored PRs</strong></summary>
@@ -74,8 +84,10 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 
 </details>
 
-## Current direction
+## 🌱 Current direction
 
 Working on **embodied AI and world models**, building on experience across agent workflows, memory and inference.
 
-Based in **Shenzhen, China**. Open to collaboration around AI agents, memory systems, inference and embodied AI.
+Open to collaboration around AI agents, memory systems, inference and embodied AI.
+
+[View merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)

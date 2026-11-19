@@ -1,10 +1,8 @@
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&amp;weight=700&amp;size=17&amp;color=0078D7&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=40&amp;pause=100000&amp;lines=Hi%2C+I%27m+LI.+AI+Ecosystem+Builder" alt="Hi, I'm LI. AI Ecosystem Builder."/>
   <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance’s OpenViking</strong>, and <strong>Tencent’s ncnn</strong>.<br/>I connect agent workflows, memory and inference. My current focus is <strong>embodied AI and world models</strong>.</p>
-  <p><code>Shenzhen, China</code> &nbsp;·&nbsp; <a href="https://www.zhumengmiao.me">Website</a> &nbsp;·&nbsp; <a href="https://x.com/ktz03">X</a> &nbsp;·&nbsp; <a href="https://github.com/ktz03#js-contribution-activity-description">Live GitHub activity</a></p>
+  <p><code>Shenzhen, China</code> &nbsp;·&nbsp; <a href="https://www.zhumengmiao.me">Website</a> &nbsp;·&nbsp; <a href="https://x.com/ktz03">X</a></p>
 </div>
-
-[![ktz03’s 2026 GitHub activity through November 19. 1,319 contributions on 75 active days. Pull requests 43%, commits 36%, issues 16%, code review 5%. Featured roles: core contributor to Microsoft Agent Framework, ByteDance’s OpenViking, and Tencent’s ncnn.](assets/activity-2026.svg)](https://github.com/ktz03?tab=overview&from=2026-11-01&to=2026-11-19#js-contribution-activity-description)
 
 ## Open-source contributions
 

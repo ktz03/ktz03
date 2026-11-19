@@ -76,7 +76,7 @@ Agent orchestration, recoverable workflows and checkpoints. In the historical sn
 Memory, context and agent integrations. In the historical snapshot: **22 authored** and **8 coauthored** PRs.
 
 - Fixed [CR-delimited MCP event stream parsing](https://github.com/volcengine/OpenViking/pull/5973).
-- **Windows CLI discovery:** The launcher could miss an existing development executable; the fix selects the Windows filename while preserving the existing lookup order. [OpenViking #7251](https://github.com/volcengine/OpenViking/pull/7251).
+- **Windows CLI discovery:** The launcher could miss an existing development executable; the fix selects the Windows filename while preserving the existing lookup order. [OpenViking #7251](https://github.com/volcengine/OpenViking/pull/7251) · [Case study](notes/openviking-windows-cli.md).
 
 ### ⚙️ [Tencent ncnn](https://github.com/Tencent/ncnn) · Inference
 
@@ -84,14 +84,14 @@ Memory, context and agent integrations. In the historical snapshot: **22 authore
 
 Inference correctness, portability and bindings. In the historical snapshot: **7 authored** and **3 coauthored** PRs.
 
-- **Numerically stable inference:** Extreme finite inputs could produce infinities; the fix stabilizes LogSumExp on CPU and Vulkan. [ncnn #7055](https://github.com/Tencent/ncnn/pull/7055).
+- **Numerically stable inference:** Extreme finite inputs could produce infinities; the fix stabilizes LogSumExp on CPU and Vulkan. [ncnn #7055](https://github.com/Tencent/ncnn/pull/7055) · [Case study](notes/ncnn-logsumexp.md).
 - Addressed [FP16 GELU overflow on ARM and RISC-V](https://github.com/Tencent/ncnn/pull/7060).
 
 ## Collaboration
 
 These contributions landed through PRs opened by other authors, with coauthor credit retained in the upstream commits.
 
-- **OpenViking × LangChain:** Helped preserve conversation text, roles and tool history that could otherwise be lost. [OpenViking #6275](https://github.com/volcengine/OpenViking/pull/6275) was opened by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41).
+- **OpenViking × LangChain:** Helped preserve conversation text, roles and tool history that could otherwise be lost. [OpenViking #6275](https://github.com/volcengine/OpenViking/pull/6275) was opened by [@ehz0ah](https://github.com/ehz0ah) · [coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41) · [Collaboration case](notes/openviking-langchain-collaboration.md).
 - **Tencent ncnn:** Improved [bool MemoryData handling in pnnx](https://github.com/Tencent/ncnn/pull/7006), with [@nihui](https://github.com/nihui) · [coauthor credit](https://github.com/Tencent/ncnn/commit/8bc95a1e7fe430c0d6f988f6318c1a8791b78062).
 - **[Zuko](https://github.com/probabilists/zuko):** Included [broadcast bounds in truncated batch shapes](https://github.com/probabilists/zuko/pull/83), with [@francois-rozet](https://github.com/francois-rozet) · [coauthor credit](https://github.com/probabilists/zuko/commit/c000b19adbf0c0e83c612b3e826e896bd967fcf7).
 

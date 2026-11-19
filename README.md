@@ -1,24 +1,20 @@
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&amp;weight=700&amp;size=17&amp;color=0078D7&amp;center=true&amp;vCenter=true&amp;width=560&amp;height=40&amp;pause=100000&amp;lines=Hi%2C+I%27m+LI.+AI+Ecosystem+Builder" alt="Hi, I'm LI. AI Ecosystem Builder."/>
-  <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance’s OpenViking</strong>, and <strong>Tencent’s ncnn</strong>.<br/>I connect agent workflows, memory and inference. My current focus is <strong>embodied AI and world models</strong>.</p>
+  <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance’s OpenViking</strong>, and <strong>Tencent’s ncnn</strong>.<br/>I work on how agents recover, remember, and run on-device. I’m bringing that experience to <strong>embodied AI and world models</strong>.</p>
   <p><code>Shenzhen, China</code> &nbsp;·&nbsp; <a href="https://www.zhumengmiao.me">Website</a> &nbsp;·&nbsp; <a href="https://x.com/ktz03">X</a> &nbsp;·&nbsp; <a href="https://github.com/ktz03#js-contribution-activity-description">Live GitHub activity</a></p>
 </div>
 
-[![ktz03’s 2026 GitHub activity through November 19. 1,319 contributions on 75 active days. Pull requests 43%, commits 36%, issues 16%, code review 5%.](assets/activity-2026.svg)](https://github.com/ktz03?tab=overview&from=2026-11-01&to=2026-11-19#js-contribution-activity-description)
-
 ## Open-source contributions
 
-| Project | A change that landed upstream |
-| --- | --- |
-| [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | Preserved the user’s reply in a saved workflow thread so it survives recovery. [Historical PR #8273](https://github.com/microsoft/agent-framework/pull/8273) |
-| [OpenViking](https://github.com/volcengine/OpenViking) | Fixed the Windows launcher so it finds an existing development build. [PR #7251](https://github.com/volcengine/OpenViking/pull/7251) · [Walkthrough](notes/openviking-windows-cli.md) |
-| [Tencent ncnn](https://github.com/Tencent/ncnn) | Fixed intermediate overflow in LogSumExp on CPU and Vulkan. [PR #7055](https://github.com/Tencent/ncnn/pull/7055) · [Numerical example](notes/ncnn-logsumexp.md) |
+- **Microsoft · Agent Framework.** I fixed thread snapshots so the user’s reply survives workflow recovery. [Contribution record](https://github.com/ktz03/ktz03/blob/4ab7c8698e5a239b1a74b68093347712656016c8/README.md?plain=1#L61) · [Historical PR #8273](https://github.com/microsoft/agent-framework/pull/8273).
+- **ByteDance · OpenViking.** I coauthored a fix that keeps the message text, speaker roles, and tool-call history when LangChain restores a conversation. [PR #6275, opened by @ehz0ah](https://github.com/volcengine/OpenViking/pull/6275) · [Coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41).
+- **Tencent · ncnn.** I fixed LogSumExp on CPU and Vulkan so finite inputs such as `[1000, 1000]` give a finite result. [PR #7055](https://github.com/Tencent/ncnn/pull/7055) · [Numerical example](notes/ncnn-logsumexp.md).
 
-**113 merged PRs across 35 upstream projects** in my Nov 14, 2026 snapshot. I opened 99. At least 14 more credit me as a coauthor. [Browse publicly searchable authored PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests).
+[![ktz03’s 2026 GitHub activity through November 19. 1,319 contributions on 75 active days. Pull requests 43%, commits 36%, issues 16%, code review 5%. Featured upstream work includes Microsoft Agent Framework, ByteDance’s OpenViking, and Tencent’s ncnn.](assets/activity-2026.svg)](https://github.com/ktz03?tab=overview&from=2026-11-01&to=2026-11-19#js-contribution-activity-description)
 
 ## Collaboration
 
-[@ehz0ah](https://github.com/ehz0ah) opened [OpenViking × LangChain #6275](https://github.com/volcengine/OpenViking/pull/6275). Together we fixed a conversion that could lose a message’s text, speaker role or tool history. [Upstream coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41) · [What changed](notes/openviking-langchain-collaboration.md).
+In OpenViking, [@ehz0ah](https://github.com/ehz0ah) brought our fixes together in the upstream PR. [How we preserved conversation history](notes/openviking-langchain-collaboration.md). In ncnn, I worked with [@nihui](https://github.com/nihui) on how the pnnx converter stores boolean constants. [PR #7006](https://github.com/Tencent/ncnn/pull/7006) · [Coauthor credit](https://github.com/Tencent/ncnn/commit/8bc95a1e7fe430c0d6f988f6318c1a8791b78062).
 
 <details>
 <summary><strong>View 14 coauthored PRs</strong></summary>
@@ -50,7 +46,9 @@ I’m exploring how an agent can predict what its next action will change, compa
 - [**traj-wash**](https://github.com/ktz03/traj-wash) finds the first failed step in an agent run and trims repeated failures for evaluation.
 
 <details>
-<summary><strong>More from the three projects and collaborators</strong></summary>
+<summary><strong>Full contribution record and more project cases</strong></summary>
+
+**113 merged PRs across 35 upstream projects** in my Nov 14, 2026 snapshot. I opened 99. At least 14 more credit me as a coauthor. [Browse publicly searchable authored PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests).
 
 ### 🤖 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) · Agent workflows
 

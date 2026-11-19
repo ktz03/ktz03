@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="412" viewBox="0 0 960 412" role="img" aria-labelledby="title desc">
   <title id="title">ktz03 · 2026 GitHub contributions</title>
-  <desc id="desc">1,319 contributions across 75 active days through 2026-11-19. Each square uses GitHub’s public daily intensity. In the public activity overview, pull requests account for 43%, commits 36%, issues 16%, and code review 5%. The longest spoke represents the largest category. The overview lists 250 repositories.</desc>
+  <desc id="desc">1,319 contributions across 75 active days through 2026-11-19. Each square uses GitHub’s public daily intensity. In the public activity overview, pull requests account for 43%, commits 36%, issues 16%, and code review 5%. The longest spoke represents the largest category. Selected upstream work includes Microsoft Agent Framework, ByteDance’s OpenViking, and Tencent’s ncnn.</desc>
   <style>
     text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#1f2328}
     .card{fill:#fff;stroke:#d1d9e0}.rule{stroke:#d1d9e0}.muted text,text.muted{fill:#59636e}
@@ -401,11 +401,18 @@
   <text x="68" y="201" class="muted fine">75 active days</text>
   <text x="805" y="201" class="muted fine" text-anchor="end">Less</text><rect x="816" y="190" width="12" height="12" rx="2.5" class="d0"/><rect x="831" y="190" width="12" height="12" rx="2.5" class="d1"/><rect x="846" y="190" width="12" height="12" rx="2.5" class="d2"/><rect x="861" y="190" width="12" height="12" rx="2.5" class="d3"/><rect x="876" y="190" width="12" height="12" rx="2.5" class="d4"/><text x="895" y="201" class="muted fine">More</text>
   <path d="M1 217H959 M489 236V390" class="rule" fill="none"/>
-  <text x="29" y="256" font-size="21" class="major">Activity overview</text>
-  <text x="29" y="287" font-size="16">250 repositories in the public overview</text>
-  <text x="29" y="320" class="muted lab">Selected upstreams</text>
-  <text x="29" y="348" font-size="17" class="repo">volcengine/OpenViking</text>
-  <text x="29" y="375" font-size="17" class="repo">Tencent/ncnn</text>
+  <g aria-label="Selected upstream contributions by ktz03">
+    <text x="29" y="247" font-size="20" class="major">Featured upstream work</text>
+    <text x="29" y="278" font-size="17" class="major">Microsoft</text>
+    <text x="149" y="278" font-size="17">Agent Framework</text>
+    <text x="149" y="297" class="muted lab">Keep user replies when workflows resume</text>
+    <text x="29" y="324" font-size="17" class="major">ByteDance</text>
+    <text x="149" y="324" font-size="17">OpenViking</text>
+    <text x="149" y="343" class="muted lab">Preserve conversation and tool-call history</text>
+    <text x="29" y="370" font-size="17" class="major">Tencent</text>
+    <text x="149" y="370" font-size="17">ncnn</text>
+    <text x="149" y="389" class="muted lab">Stabilize LogSumExp on CPU and Vulkan</text>
+  </g>
   <g aria-label="Activity by contribution type">
     <polygon points="724,301.26 745.58,308 724,366 675.44,308" class="area"/>
     <path d="M666 308H782 M724 250V366" class="axis" fill="none"/>

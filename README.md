@@ -1,18 +1,29 @@
 <div align="center">
-  <h1>Hi, I'm LI 👋</h1>
+  <h1>LI</h1>
   <h3>AI Ecosystem Builder</h3>
-  <p><strong>Agent workflows · Memory and context · Inference</strong></p>
+  <p><code>Agent workflows</code> &nbsp; <code>Memory &amp; context</code> &nbsp; <code>Inference</code></p>
   <p>Core contributor to <strong>Microsoft Agent Framework</strong>, <strong>ByteDance's OpenViking</strong>, and <strong>Tencent's ncnn</strong>.</p>
-  <p>Working on <strong>embodied AI and world models</strong>.</p>
-  <p>📍 Shenzhen, China · <a href="https://www.zhumengmiao.me">Personal website</a> · <a href="https://x.com/ktz03">X / Twitter</a></p>
+  <p><strong>Working on embodied AI and world models.</strong></p>
+  <p>📍 Shenzhen, China &nbsp;·&nbsp; <a href="https://www.zhumengmiao.me">Personal website</a> &nbsp;·&nbsp; <a href="https://x.com/ktz03">X / Twitter</a></p>
 </div>
 
-## 💻 Open-source contributions
+## Building across the AI ecosystem
 
-I work across the AI stack, connecting agent orchestration, memory and inference through upstream fixes and collaboration.
+I connect agent orchestration, memory and inference through upstream fixes and collaboration. My current direction extends that work into **embodied AI and world models**.
 
-**113 merged upstream PRs** · **35 upstream projects**  
-99 authored PRs + 14 additional coauthored PRs
+[Project highlights](#open-source-contributions) · [Coauthored work](#collaboration) · [View merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)
+
+## Open-source contributions
+
+**113 merged upstream PRs**, including authored and coauthored work.
+
+<table>
+  <tr>
+    <td align="center" width="33%"><strong>99</strong><br/><sub>Authored PRs</sub></td>
+    <td align="center" width="33%"><strong>14</strong><br/><sub>Additional coauthored PRs</sub></td>
+    <td align="center" width="34%"><strong>35</strong><br/><sub>Upstream projects</sub></td>
+  </tr>
+</table>
 
 <sub>Public upstream snapshot as of November 14, 2026. Coauthored work is a verified lower bound.</sub>
 
@@ -39,7 +50,7 @@ Inference correctness, portability and bindings. In the historical snapshot: **7
 - Improved [LogSumExp stability on CPU and Vulkan](https://github.com/Tencent/ncnn/pull/7055).
 - Addressed [FP16 GELU overflow on ARM and RISC-V](https://github.com/Tencent/ncnn/pull/7060).
 
-## 🤝 Collaboration
+## Collaboration
 
 These contributions landed through PRs opened by other authors, with coauthor credit retained in the upstream commits.
 
@@ -84,10 +95,8 @@ Further merged work includes **TensorLy, PydanticAI, Qdrant Client, sklearn-onnx
 
 </details>
 
-## 🌱 Current direction
+## Embodied AI and world models
 
 Working on **embodied AI and world models**, building on experience across agent workflows, memory and inference.
 
 Open to collaboration around AI agents, memory systems, inference and embodied AI.
-
-[View merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests)

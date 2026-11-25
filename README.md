@@ -13,7 +13,7 @@
 | **[ByteDance’s OpenViking](https://github.com/volcengine/OpenViking)** · Core contributor | **Agent memory.** I coauthored the LangChain fix that lets a restored conversation retain what was said, who said it, and which tools were called. [PR #6275, opened by @ehz0ah](https://github.com/volcengine/OpenViking/pull/6275) · [Coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41) |
 | **[Tencent’s ncnn](https://github.com/Tencent/ncnn)** · Core contributor | **Inference reliability.** I stabilized LogSumExp on CPU and Vulkan. Both backends now return a finite result for inputs like `[1000, 1000]`. [PR #7055](https://github.com/Tencent/ncnn/pull/7055) · [Numerical example](notes/ncnn-logsumexp.md) |
 
-As of November 25, 2026, **109 PRs I opened have merged across 37 upstream projects**, including **65** in the three projects above. [November 14 contribution record](https://github.com/ktz03/ktz03/blob/4ab7c8698e5a239b1a74b68093347712656016c8/README.md?plain=1#L17).
+As of November 25, 2026, **109 PRs I opened have merged across 37 upstream projects**, including **65** in the three projects above. [View public merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests).
 
 ## Collaboration
 

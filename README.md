@@ -13,7 +13,7 @@
 | **[ByteDance’s OpenViking](https://github.com/volcengine/OpenViking)** · Core contributor | **Agent memory.** I coauthored the LangChain fix that lets a restored conversation retain what was said, who said it, and which tools were called. [PR #6275, opened by @ehz0ah](https://github.com/volcengine/OpenViking/pull/6275) · [Coauthor credit](https://github.com/volcengine/OpenViking/commit/b1d0fa51ef253716fdec819615918352e97dfd41) |
 | **[Tencent’s ncnn](https://github.com/Tencent/ncnn)** · Core contributor | **Inference reliability.** I stabilized LogSumExp on CPU and Vulkan. Both backends now return a finite result for inputs like `[1000, 1000]`. [PR #7055](https://github.com/Tencent/ncnn/pull/7055) · [Numerical example](notes/ncnn-logsumexp.md) |
 
-As of November 25, 2026, **109 PRs I opened have merged across 37 upstream projects**, including **65** in the three projects above. [View public merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests).
+As of November 26, 2026, **111 PRs I opened have merged across 37 upstream projects**, including **66** in the three projects above. [View public merged PRs](https://github.com/search?q=author%3Aktz03+is%3Apr+is%3Amerged+is%3Apublic+-user%3Aktz03&type=pullrequests).
 
 ## Collaboration
 
@@ -78,7 +78,7 @@ Memory, context and agent integrations. The November 25 count includes **28 auth
 
 `Inference` · `Correctness` · `Portability`
 
-Inference correctness, portability and bindings. In the historical snapshot: **7 authored** and **3 coauthored** PRs.
+Inference correctness, portability and bindings. The November 26 count includes **8 authored** and **3 coauthored** PRs.
 
 - **Numerically stable inference:** Extreme finite inputs could produce infinities; the fix stabilizes LogSumExp on CPU and Vulkan. [ncnn #7055](https://github.com/Tencent/ncnn/pull/7055) · [Case study](notes/ncnn-logsumexp.md).
 - Addressed [FP16 GELU overflow on ARM and RISC-V](https://github.com/Tencent/ncnn/pull/7060).
